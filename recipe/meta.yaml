@@ -10,7 +10,7 @@ source:
   sha256: fb75fee14275a98eec83be7a8852c8f7b400dda4758769bb4243692f451c3739
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 requirements:
@@ -21,7 +21,7 @@ requirements:
 
   run:
     - python >3.5
-    - matplotlib >=3.0.3
+    - matplotlib-base >=3.0.3
     - plotly >=4.1.0
     - scipy >=1.3.1
 
