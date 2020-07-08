@@ -121,4 +121,5 @@ Feedstock Maintainers
 
 * [@Fin109](https://github.com/Fin109/)
 * [@briandrawert](https://github.com/briandrawert/)
+* [@seanebum](https://github.com/seanebum/)
 
