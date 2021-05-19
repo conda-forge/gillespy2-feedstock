@@ -1,5 +1,5 @@
 {% set name = "gillespy2" %}
-{% set version = "1.5.7" %}
+{% set version = "1.5.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6ef24d098b9c9aebc79131a9592a47abc3035f86c0c04fddd38c970b6610c545
+  sha256: 183cf0ca90c8ab0eda924e901fa21227b2de2cfb5f030302eaf7add934ff9f0a
 
 build:
   number: 0
