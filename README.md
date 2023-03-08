@@ -1,11 +1,11 @@
-About gillespy2
-===============
+About gillespy2-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gillespy2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/GillesPy2/GillesPy2
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gillespy2-feedstock/blob/main/LICENSE.txt)
 
 Summary: GillesPy2 is an open-source Python package for stochastic simulation of biochemical systems.
 
