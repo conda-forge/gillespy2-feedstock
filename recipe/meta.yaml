@@ -6,26 +6,28 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 8eed59b5ba12614225a7fdb42ebb72e461bbd3a1e23947fef359e16eeaed845f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 requirements:
   host:
-    - python >3.5
+    - python {{ python_min }}
     - pip
     - setuptools >=41.0.1
 
   run:
-    - python >3.5
+    - python >={{ python_min }}
     - matplotlib-base >=3.0.3
     - plotly >=4.1.0
     - scipy >=1.3.1
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - gillespy2
 
